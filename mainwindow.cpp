@@ -38,7 +38,7 @@ void MainWindow::on_pushButton_clicked()
     r=ui->plainTextEdit_18->toPlainText().toDouble();
     s=ui->plainTextEdit_19->toPlainText().toDouble();
 
-    double AB,AC,CD,DE,F,G,I,IJ, K,L;
+    double AB,AC,CD,DE,F,G,I,IJ, K,L, BM P, HP;
     AB = i;
     AC= (1/2)*k+(3/8);
     CD = 2;
@@ -48,6 +48,11 @@ void MainWindow::on_pushButton_clicked()
     GH = (1/2)*l+.5;
     IJ = (1/2)*k;
     L = 1;
+    BM = (1/4)*b+(3/4);
+    P = 1.5;
+    HP = n;
+    NO = GH+(3/8);
+
 
 
 
