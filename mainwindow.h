@@ -2,6 +2,9 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
+#include <QtGui>
+#include <QtCore>
+
 
 namespace Ui {
 class MainWindow;
@@ -20,6 +23,10 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
+protected:
+    void paintEvent(QPaintEvent *e);
+
 };
 
 #endif // MAINWINDOW_H

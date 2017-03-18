@@ -16,7 +16,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    double a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r,s;
+    double a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r;
 
     a=ui->plainTextEdit->toPlainText().toDouble();
     b=ui->plainTextEdit_2->toPlainText().toDouble();
@@ -36,9 +36,9 @@ void MainWindow::on_pushButton_clicked()
     p=ui->plainTextEdit_16->toPlainText().toDouble();
     q=ui->plainTextEdit_17->toPlainText().toDouble();
     r=ui->plainTextEdit_18->toPlainText().toDouble();
-    s=ui->plainTextEdit_19->toPlainText().toDouble();
 
-    double AB,AC,CD,DE,F,G,I,IJ, K,L, BM P, HP;
+
+    double AB,AC,CD,DE,F,G,IJ,L,BM,P,HP,GH,NO;
     AB = i;
     AC= (1/2)*k+(3/8);
     CD = 2;
@@ -53,8 +53,34 @@ void MainWindow::on_pushButton_clicked()
     HP = n;
     NO = GH+(3/8);
 
+}
+
+void MainWindow::paintEvent(QPaintEvent *e)
+{
+    QPainter painter(this);
+
+    //Make Polygon
+    QPolygon poly;
+    poly << QPoint(37,0);
+    poly << QPoint(55,6);
+    poly << QPoint(55,102);
+    poly << QPoint(8,106);
+    poly << QPoint(0,60);
+    poly << QPoint(11,12);
 
 
+    //make a pen
+    QPen linepen;
+    linepen.setWidth(1);
+    linepen.setColor(Qt::blue);
+    linepen.setJoinStyle(Qt::MiterJoin);
+    painter.setPen(linepen);
+
+
+    //draw polygon
+    painter.drawPolygon(poly);
 
 
 }
+
+
