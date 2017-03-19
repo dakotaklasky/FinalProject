@@ -17,28 +17,27 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_clicked()
 {
-    double a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r;
+    std::vector<double> measurements {
+    ui->plainTextEdit->toPlainText().toDouble(),
+    ui->plainTextEdit_2->toPlainText().toDouble(),
+    ui->plainTextEdit_3->toPlainText().toDouble(),
+    ui->plainTextEdit_4->toPlainText().toDouble(),
+    ui->plainTextEdit_5->toPlainText().toDouble(),
+    ui->plainTextEdit_6->toPlainText().toDouble(),
+    ui->plainTextEdit_7->toPlainText().toDouble(),
+    ui->plainTextEdit_8->toPlainText().toDouble(),
+    ui->plainTextEdit_9->toPlainText().toDouble(),
+    ui->plainTextEdit_10->toPlainText().toDouble(),
+    ui->plainTextEdit_11->toPlainText().toDouble(),
+    ui->plainTextEdit_12->toPlainText().toDouble(),
+    ui->plainTextEdit_13->toPlainText().toDouble(),
+    ui->plainTextEdit_14->toPlainText().toDouble(),
+    ui->plainTextEdit_15->toPlainText().toDouble(),
+    ui->plainTextEdit_16->toPlainText().toDouble(),
+    ui->plainTextEdit_17->toPlainText().toDouble(),
+    ui->plainTextEdit_18->toPlainText().toDouble()};
 
-    a=ui->plainTextEdit->toPlainText().toDouble();
-    b=ui->plainTextEdit_2->toPlainText().toDouble();
-    c=ui->plainTextEdit_3->toPlainText().toDouble();
-    d=ui->plainTextEdit_4->toPlainText().toDouble();
-    e=ui->plainTextEdit_5->toPlainText().toDouble();
-    f=ui->plainTextEdit_6->toPlainText().toDouble();
-    g=ui->plainTextEdit_7->toPlainText().toDouble();
-    h=ui->plainTextEdit_8->toPlainText().toDouble();
-    i=ui->plainTextEdit_9->toPlainText().toDouble();
-    j=ui->plainTextEdit_10->toPlainText().toDouble();
-    k=ui->plainTextEdit_11->toPlainText().toDouble();
-    l=ui->plainTextEdit_12->toPlainText().toDouble();
-    m=ui->plainTextEdit_13->toPlainText().toDouble();
-    n=ui->plainTextEdit_14->toPlainText().toDouble();
-    o=ui->plainTextEdit_15->toPlainText().toDouble();
-    p=ui->plainTextEdit_16->toPlainText().toDouble();
-    q=ui->plainTextEdit_17->toPlainText().toDouble();
-    r=ui->plainTextEdit_18->toPlainText().toDouble();
-
-
+/*
     double AB,AC,CD,DE,F,G,IJ,L,BM,P,HP,GH,NO;
     AB = i;
     AC= (1/2)*k+(3/8);
@@ -53,7 +52,7 @@ void MainWindow::on_pushButton_clicked()
     P = 1.5;
     HP = n;
     NO = GH+(3/8);
-
+*/
     Dialog mdialog;
     mdialog.setModal(true);
     mdialog.exec();
