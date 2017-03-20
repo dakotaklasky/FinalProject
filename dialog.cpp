@@ -15,6 +15,9 @@ Dialog::~Dialog()
 
 void Dialog::paintEvent(QPaintEvent *e)
 {
+
+    std::vector<double> input;
+    input = on_pushButton_clicked();
     QPainter painter(this);
 
     //Make Polygon

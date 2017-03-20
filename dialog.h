@@ -9,7 +9,7 @@ namespace Ui {
 class Dialog;
 }
 
-class Dialog : public QDialog
+class Dialog : public QPublic: public MainWindow
 {
     Q_OBJECT
 

@@ -14,8 +14,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
-void MainWindow::on_pushButton_clicked()
+std::vector<double> MainWindow::on_pushButton_clicked()
 {
     std::vector<double> measurements {
     ui->plainTextEdit->toPlainText().toDouble(),
@@ -57,7 +56,7 @@ void MainWindow::on_pushButton_clicked()
     mdialog.setModal(true);
     mdialog.exec();
 
-
+return measurements;
 }
 
 
