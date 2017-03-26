@@ -1,3 +1,7 @@
+/*
+  Creates a new dialog that displays the shape of the pattern given the measurement inputs.
+  */
+
 #ifndef DIALOG_H
 #define DIALOG_H
 

@@ -1,3 +1,7 @@
+/*
+ Take measurement inputs from the user to create custom pattern
+ */
+
 #ifndef MAINWINDOW_H
 #define MAINWINDOW_H
 
@@ -22,7 +26,6 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
-
 
 
 };

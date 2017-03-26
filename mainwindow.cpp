@@ -14,7 +14,9 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-
+/*
+ Collect input data from user and open new dialog
+ */
 void MainWindow::on_pushButton_clicked()
 {
     double a,b,c,d,e,f,g,h,i,j,k,l,m,n,o,p,q,r;
@@ -38,29 +40,10 @@ void MainWindow::on_pushButton_clicked()
     q=ui->plainTextEdit_17->toPlainText().toDouble();
     r=ui->plainTextEdit_18->toPlainText().toDouble();
 
-
-    double AB,AC,CD,DE,F,G,IJ,L,BM,P,HP,GH,NO;
-    AB = i;
-    AC= (1/2)*k+(3/8);
-    CD = 2;
-    DE = j;
-    F = g;
-    G = (1/2)*i+1.25;
-    GH = (1/2)*l+.5;
-    IJ = (1/2)*k;
-    L = 1;
-    BM = (1/4)*b+(3/4);
-    P = 1.5;
-    HP = n;
-    NO = GH+(3/8);
-
     Dialog mdialog;
     mdialog.setModal(true);
     mdialog.exec();
 
-
 }
-
-
 
 

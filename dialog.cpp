@@ -13,6 +13,9 @@ Dialog::~Dialog()
     delete ui;
 }
 
+/*
+ Draw pattern shape
+ */
 void Dialog::paintEvent(QPaintEvent *e)
 {
     QPainter painter(this);
