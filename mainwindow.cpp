@@ -14,6 +14,7 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
+
 /*
  Collect input data from user and open new dialog
  */
@@ -40,10 +41,14 @@ void MainWindow::on_pushButton_clicked()
     q=ui->plainTextEdit_17->toPlainText().toDouble();
     r=ui->plainTextEdit_18->toPlainText().toDouble();
 
+
     Dialog mdialog;
     mdialog.setModal(true);
     mdialog.exec();
 
+
 }
+
+
 
 

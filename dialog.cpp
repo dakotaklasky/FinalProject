@@ -16,8 +16,9 @@ Dialog::~Dialog()
 /*
  Draw pattern shape
  */
-void Dialog::paintEvent(QPaintEvent *e)
+void Dialog::paintEvent(QPaintEvent *w)
 {
+
     QPainter painter(this);
 
     //Make Polygon
