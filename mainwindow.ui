@@ -66,7 +66,14 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit">
+           <property name="tabStopWidth">
+            <number>77</number>
+           </property>
+           <property name="placeholderText">
+            <string>38.5</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -84,7 +91,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_2"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_2">
+           <property name="placeholderText">
+            <string>30</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -102,7 +113,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_3"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_3">
+           <property name="placeholderText">
+            <string>43</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -120,7 +135,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_4"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_4">
+           <property name="placeholderText">
+            <string>45.5</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -138,7 +157,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_5"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_5">
+           <property name="placeholderText">
+            <string>14</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -156,7 +179,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_6"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_6">
+           <property name="placeholderText">
+            <string>13</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -191,7 +218,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_7"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_7">
+           <property name="placeholderText">
+            <string>15</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -209,7 +240,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_8"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_8">
+           <property name="placeholderText">
+            <string>16</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -227,7 +262,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_9"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_9">
+           <property name="placeholderText">
+            <string>17</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -245,7 +284,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_10"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_10">
+           <property name="placeholderText">
+            <string>3.5</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -263,7 +306,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_11"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_11">
+           <property name="placeholderText">
+            <string>15</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -281,7 +328,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_12"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_12">
+           <property name="placeholderText">
+            <string>18.25</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -316,7 +367,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_13"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_13">
+           <property name="placeholderText">
+            <string>13</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -334,7 +389,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_14"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_14">
+           <property name="placeholderText">
+            <string>8.25</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -352,7 +411,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_15"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_15">
+           <property name="placeholderText">
+            <string>23.5</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -370,7 +433,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_16"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_16">
+           <property name="placeholderText">
+            <string>15.5</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -388,7 +455,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_17"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_17">
+           <property name="placeholderText">
+            <string>12.5</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
@@ -406,7 +477,11 @@ p, li { white-space: pre-wrap; }
           </widget>
          </item>
          <item>
-          <widget class="QPlainTextEdit" name="plainTextEdit_18"/>
+          <widget class="QPlainTextEdit" name="plainTextEdit_18">
+           <property name="placeholderText">
+            <string>10</string>
+           </property>
+          </widget>
          </item>
         </layout>
        </item>
